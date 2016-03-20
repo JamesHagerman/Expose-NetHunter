@@ -3,6 +3,11 @@
 This project will expose the underbelly of NetHunter (and, in part, Kali) to
 web developers.
 
+# Warning!
+
+This is absolutely insecure! The fetcher can tar any directory in the nethunter
+chroot! Don't run this unless you're aware of what you're doing!!
+
 ## Why?
 
 Info sec tools are plagued by bad design. Even NetHunter, the supposed "easy
@@ -22,3 +27,5 @@ tools. That means you need to have nodejs on your mobile device... but since it
 comes with nethunter, we're in luck out of the box.
 
 I'll get back to this. I want tooling NOW.
+
+

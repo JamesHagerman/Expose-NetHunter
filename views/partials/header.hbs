@@ -1,0 +1,31 @@
+<div class="header">
+  <a href="http://zenpirate.com" class='header_art'>
+      <canvas class="main_canvas">
+        This text is displayed if your browser does not support HTML5 Canvas.
+      </canvas>
+      <div class="page_title">zenpirate</div>
+  </a>
+
+  <div class="control_holder">
+    {{>navigation}}
+
+    <div class="controls">
+      <!-- <% if current_user %>
+          <span>Hello, <strong><%= current_user.name %></strong></span>
+          <% if current_user.try(:admin?) %>
+              <%= link_to('Add', new_post_path) %>
+          <% end %>
+          <%= link_to "Sign out", signout_path, id: "sign_out" %>
+      <% else %>
+          <%#= link_to "Sign in with Facebook", "/users/auth/facebook", id: "sign_in" %>
+          <%= link_to('Login', new_user_session_path) %>
+      <% end %> -->
+    </div>
+
+    <div class="messages">
+      <!-- <%= notice %>
+      <%= alert %> -->
+    </div>
+  </div>
+
+</div>

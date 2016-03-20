@@ -1,16 +1,24 @@
 {
-  "name": "exnh",
+  "name": "expose-nethunter",
   "version": "0.0.0",
-  "description": "A test of running express under nethunter",
+  "description": "expose nethunter's underbelly",
   "main": "server.js",
-  "scripts": {\
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "jameshagerman",
   "license": "MIT",
   "dependencies": {
+    "bluebird": "^3.3.4",
+    "body-parser": "^1.15.0",
+    "compression": "^1.6.1",
+    "cookie-parser": "^1.4.1",
     "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
     "forever": "^0.15.1",
+    "marked": "^0.3.5",
+    "node-sass-middleware": "^0.9.7",
+    "request": "^2.69.0",
     "socket.io": "^1.4.5",
     "tar.gz": "^1.0.3"
   }

@@ -1,0 +1,20 @@
+<div class="blog_entry">
+  <span class="title">{{title}}</span>
+  <span class="author">Author: {{user.name}}</span>
+  <span class="date">{{created_at}}</span><br/>
+  {{{formatted}}}
+
+
+  <!-- <div class="gallery post<%=@post.id%>">
+    <% for attachment in @post.attachments %>
+        <%= link_to image_tag(attachment.file_url(:thumb), :class => "post_image"), attachment.file_url, :class => "post_gallery_item", :rel => "post_gallery_item", :title => attachment.description %>
+    <% end %>
+  </div>
+
+  <p>
+    <%= link_to "home", :action => "index" %>
+    <% if current_user.try(:admin?) %>
+        <%= link_to "edit", :action => "edit" %>
+    <% end %>
+  </p> -->
+</div>
