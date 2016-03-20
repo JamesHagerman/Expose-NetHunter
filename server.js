@@ -89,10 +89,8 @@ app.get('/', function (req, res) {
 });
 
 app.get('/fetchCapture', function (req, res) {
-  // res.send('fetch endpoint');
   console.log('fetch endpoint hit');
-  console.log('req: ', req);
-
+  
   var path = '';
   if (typeof req.query === 'undefined' || typeof req.query.path === 'undefined') {
     path = '/var/lib/mana-toolkit';
@@ -101,6 +99,9 @@ app.get('/fetchCapture', function (req, res) {
   }
 
   var filename = 'capture-logs.tar.gz';
+
+  console.log('path: ', path);
+  console.log('filename: ', filename);
   tarFetch.capture(path, filename, req, res);
 
 });
