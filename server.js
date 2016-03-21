@@ -15,9 +15,9 @@ var bodyParser = require('body-parser');
 var exphbs = require('express-handlebars'); // Template/frontend help
 
 var request = require('request'); // AJAX requests
-// var targz = require('tar.gz');
 var marked = require('marked'); // Markdown parsing
 
+var dhcpdleases = require('dhcpd-leases');
 //========
 // Our libs:
 var tarFetch = require('./lib/tarFetch');
@@ -104,4 +104,10 @@ app.get('/fetchCapture', function (req, res) {
   console.log('output filename: ', filename);
   tarFetch.capture(path, filename, req, res);
 
+});
+
+app.get('/leases.json', function(req, res) {
+  var s = fs.readFileSync('/var/lib/dhcp/dhcpd.leases', 'utf-8');
+  var data = dhcpdleases(s);
+  res.send(data);
 });
