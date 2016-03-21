@@ -90,7 +90,7 @@ app.get('/', function (req, res) {
 
 app.get('/fetchCapture', function (req, res) {
   console.log('fetch endpoint hit');
-  
+
   var path = '';
   if (typeof req.query === 'undefined' || typeof req.query.path === 'undefined') {
     path = '/var/lib/mana-toolkit';
@@ -100,8 +100,8 @@ app.get('/fetchCapture', function (req, res) {
 
   var filename = 'capture-logs.tar.gz';
 
-  console.log('path: ', path);
-  console.log('filename: ', filename);
+  console.log('path to compress: ', path);
+  console.log('output filename: ', filename);
   tarFetch.capture(path, filename, req, res);
 
 });
