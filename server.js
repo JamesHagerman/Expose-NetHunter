@@ -6,6 +6,7 @@ var app = express();
 var server = require('http').Server(app);
 var io = require('socket.io')(server);
 var fs = require('fs');
+var path = require('path');
 
 var compression = require('compression');
 var sassMiddleware = require('node-sass-middleware');
@@ -24,6 +25,12 @@ var tarFetch = require('./lib/tarFetch');
 
 //=============
 // App configs:
+
+// My configs:
+var leasesFilePath = '/var/lib/dhcp/dhcpd.leases';
+//console.log('uhoh: ', leasesFilePath);
+leasesFilePath = path.join(__dirname, 'dev-root', 'var/lib/dhcp/dhcpd.leases');
+console.log('real: ', leasesFilePath);
 
 marked.setOptions({
   // Configure marked markdown renderer:
@@ -108,7 +115,8 @@ app.get('/fetchCapture', function (req, res) {
 
 app.get('/leases.json', function(req, res) {
   console.log('getting leases');
-  var s = fs.readFileSync('/var/lib/dhcp/dhcpd.leases', 'utf-8');
+
+  var s = fs.readFileSync(leasesFilePath, 'utf-8');
   var data = dhcpdleases(s);
   res.setHeader('Content-Type', 'application/json');
   res.send(data);

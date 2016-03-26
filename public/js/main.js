@@ -45,8 +45,14 @@ var App = (function() {
             dataType: 'json',
             url: '/leases.json',
             success: function(data) {
-              var parsedData = JSON.parse(data);
-              console.log(' lease response: ', parsedData);
+              console.log('string: ', JSON.stringify(data, 0, 2));
+              //console.log(' lease response: ', data);
+              Object.keys(data).forEach(function (key, index) {
+                console.log('ip: ', key);
+                var ip = key;
+                var mac = data[key]['hardware ethernet'];
+                $('.lease-list').append("<div>" + ip + ": " + mac + "</div>");
+              });
             }
           });
         });
