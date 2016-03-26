@@ -29,7 +29,7 @@ var tarFetch = require('./lib/tarFetch');
 // My configs:
 var leasesFilePath = '/var/lib/dhcp/dhcpd.leases';
 //console.log('uhoh: ', leasesFilePath);
-leasesFilePath = path.join(__dirname, 'dev-root', 'var/lib/dhcp/dhcpd.leases');
+//leasesFilePath = path.join(__dirname, 'dev-root', 'var/lib/dhcp/dhcpd.leases');
 console.log('real: ', leasesFilePath);
 
 marked.setOptions({

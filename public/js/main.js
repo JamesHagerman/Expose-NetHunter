@@ -51,7 +51,7 @@ var App = (function() {
                 console.log('ip: ', key);
                 var ip = key;
                 var mac = data[key]['hardware ethernet'];
-                $('.lease-list').append("<div>" + ip + ": " + mac + "</div>");
+                $('.lease-list').prepend("<div>" + ip + ": " + mac + "</div>");
               });
             }
           });
