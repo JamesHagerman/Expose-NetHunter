@@ -1,0 +1,221 @@
+# The format of this file is documented in the dhcpd.leases(5) manual page.
+# This lease file was written by isc-dhcp-4.3.1
+
+lease 10.0.0.101 {
+  starts 0 2016/03/06 21:42:50;
+  ends 0 2016/03/06 21:44:02;
+  tstp 0 2016/03/06 21:44:02;
+  cltt 0 2016/03/06 21:42:50;
+  binding state free;
+  hardware ethernet 98:f1:70:79:6c:e4;
+  uid "\001\230\361pyl\344";
+  set vendor-class-identifier = "dhcpcd-5.5.6";
+}
+lease 10.0.0.102 {
+  starts 0 2016/03/06 21:44:35;
+  ends 0 2016/03/06 21:45:47;
+  tstp 0 2016/03/06 21:45:47;
+  cltt 0 2016/03/06 21:44:35;
+  binding state free;
+  hardware ethernet c0:bd:d1:e9:3a:62;
+  uid "\001\300\275\321\351:b";
+  set vendor-class-identifier = "dhcpcd-5.5.6";
+}
+lease 10.0.0.104 {
+  starts 0 2016/03/06 22:49:04;
+  ends 0 2016/03/06 22:51:04;
+  tstp 0 2016/03/06 22:51:04;
+  cltt 0 2016/03/06 22:49:04;
+  binding state free;
+  hardware ethernet 44:80:eb:5b:c9:13;
+  uid "\001D\200\353[\311\023";
+  set vendor-class-identifier = "dhcpcd-5.5.6";
+}
+lease 10.0.0.103 {
+  starts 0 2016/03/06 22:56:59;
+  ends 0 2016/03/06 22:58:11;
+  tstp 0 2016/03/06 22:58:11;
+  cltt 0 2016/03/06 22:56:59;
+  binding state free;
+  hardware ethernet 10:a5:d0:e8:11:01;
+  uid "\001\020\245\320\350\021\001";
+  set vendor-class-identifier = "dhcpcd-5.5.6";
+}
+lease 10.0.0.106 {
+  starts 2 2016/03/08 02:43:37;
+  ends 2 2016/03/08 02:44:49;
+  tstp 2 2016/03/08 02:44:49;
+  cltt 2 2016/03/08 02:43:37;
+  binding state free;
+  hardware ethernet d8:bb:2c:8f:9e:f6;
+  uid "\001\330\273,\217\236\366";
+}
+lease 10.0.0.107 {
+  starts 2 2016/03/08 02:45:48;
+  ends 2 2016/03/08 02:47:00;
+  tstp 2 2016/03/08 02:47:00;
+  cltt 2 2016/03/08 02:45:48;
+  binding state free;
+  hardware ethernet fc:e9:98:cd:3b:39;
+  uid "\001\374\351\230\315;9";
+}
+lease 10.0.0.108 {
+  starts 2 2016/03/08 02:46:29;
+  ends 2 2016/03/08 02:47:41;
+  tstp 2 2016/03/08 02:47:41;
+  cltt 2 2016/03/08 02:46:29;
+  binding state free;
+  hardware ethernet 70:ec:e4:6a:e3:9d;
+  uid "\001p\354\344j\343\235";
+}
+lease 10.0.0.109 {
+  starts 2 2016/03/08 02:49:00;
+  ends 2 2016/03/08 02:50:12;
+  tstp 2 2016/03/08 02:50:12;
+  cltt 2 2016/03/08 02:49:00;
+  binding state free;
+  hardware ethernet f8:27:93:64:4e:fb;
+  uid "\001\370'\223dN\373";
+}
+lease 10.0.0.110 {
+  starts 4 2016/03/10 02:50:55;
+  ends 4 2016/03/10 02:52:07;
+  tstp 4 2016/03/10 02:52:07;
+  cltt 4 2016/03/10 02:50:55;
+  binding state free;
+  hardware ethernet 9c:d9:17:41:8c:51;
+  uid "\001\234\331\027A\214Q";
+  set vendor-class-identifier = "android-dhcp-6.0.1";
+}
+lease 10.0.0.105 {
+  starts 4 2016/03/10 02:51:48;
+  ends 4 2016/03/10 02:53:00;
+  tstp 4 2016/03/10 02:53:00;
+  cltt 4 2016/03/10 02:51:48;
+  binding state free;
+  hardware ethernet 00:26:b0:c2:fc:ed;
+  uid "\001\000&\260\302\374\355";
+}
+lease 10.0.0.114 {
+  starts 4 2016/03/10 02:55:04;
+  ends 4 2016/03/10 02:56:16;
+  tstp 4 2016/03/10 02:56:16;
+  cltt 4 2016/03/10 02:55:04;
+  binding state free;
+  hardware ethernet f4:09:d8:94:7f:85;
+  uid "\001\364\011\330\224\177\205";
+  set vendor-class-identifier = "dhcpcd-5.5.6";
+}
+lease 10.0.0.113 {
+  starts 4 2016/03/10 02:55:47;
+  ends 4 2016/03/10 02:56:59;
+  tstp 4 2016/03/10 02:56:59;
+  cltt 4 2016/03/10 02:55:50;
+  binding state free;
+  hardware ethernet ec:9b:f3:bd:90:30;
+  uid "\001\354\233\363\275\2200";
+  set vendor-class-identifier = "dhcpcd-5.5.6";
+}
+lease 10.0.0.115 {
+  starts 4 2016/03/10 02:56:16;
+  ends 4 2016/03/10 02:57:28;
+  tstp 4 2016/03/10 02:57:28;
+  cltt 4 2016/03/10 02:56:16;
+  binding state free;
+  hardware ethernet b0:45:19:e2:3e:d9;
+  set vendor-class-identifier = "dhcpcd-5.5.6";
+}
+lease 10.0.0.116 {
+  starts 0 2016/03/13 03:12:29;
+  ends 0 2016/03/13 03:13:41;
+  tstp 0 2016/03/13 03:13:41;
+  cltt 0 2016/03/13 03:12:29;
+  binding state free;
+  hardware ethernet 14:10:9f:dd:76:97;
+  uid "\001\024\020\237\335v\227";
+}
+lease 10.0.0.117 {
+  starts 0 2016/03/13 03:12:44;
+  ends 0 2016/03/13 03:13:56;
+  tstp 0 2016/03/13 03:13:56;
+  cltt 0 2016/03/13 03:12:44;
+  binding state free;
+  hardware ethernet 14:9a:10:40:3d:4c;
+  uid "\001\024\232\020@=L";
+  set vendor-class-identifier = "MSFT 5.0";
+}
+lease 10.0.0.120 {
+  starts 0 2016/03/13 03:33:17;
+  ends 0 2016/03/13 03:34:29;
+  tstp 0 2016/03/13 03:34:29;
+  cltt 0 2016/03/13 03:33:17;
+  binding state free;
+  hardware ethernet 5c:59:48:9f:23:e5;
+  uid "\001\\YH\237#\345";
+}
+lease 10.0.0.121 {
+  starts 2 2016/03/15 02:45:04;
+  ends 2 2016/03/15 02:46:16;
+  tstp 2 2016/03/15 02:46:16;
+  cltt 2 2016/03/15 02:45:04;
+  binding state free;
+  hardware ethernet f8:0c:f3:e2:cb:64;
+  set vendor-class-identifier = "dhcpcd-5.2.10:Linux-3.0.8-perf:armv7l:LGE I BOARD MSM8X60";
+}
+lease 10.0.0.124 {
+  starts 2 2016/03/15 02:52:31;
+  ends 2 2016/03/15 02:53:43;
+  tstp 2 2016/03/15 02:53:43;
+  cltt 2 2016/03/15 02:52:31;
+  binding state free;
+  hardware ethernet 10:a5:d0:22:35:98;
+  uid "\001\020\245\320\"5\230";
+}
+lease 10.0.0.122 {
+  starts 2 2016/03/15 02:52:52;
+  ends 2 2016/03/15 02:54:04;
+  tstp 2 2016/03/15 02:54:04;
+  cltt 2 2016/03/15 02:52:52;
+  binding state free;
+  hardware ethernet 90:b6:86:ec:af:23;
+  uid "\001\220\266\206\354\257#";
+  set vendor-class-identifier = "dhcpcd-5.5.6";
+}
+lease 10.0.0.123 {
+  starts 2 2016/03/15 02:52:56;
+  ends 2 2016/03/15 02:54:08;
+  tstp 2 2016/03/15 02:54:08;
+  cltt 2 2016/03/15 02:52:56;
+  binding state free;
+  hardware ethernet 24:e3:14:9c:ca:44;
+  uid "\001$\343\024\234\312D";
+}
+lease 10.0.0.100 {
+  starts 6 2016/03/19 19:35:23;
+  ends 6 2016/03/19 19:36:35;
+  tstp 6 2016/03/19 19:36:35;
+  cltt 6 2016/03/19 19:35:23;
+  binding state free;
+  hardware ethernet 64:eb:8c:01:1c:7c;
+  uid "\001d\353\214\001\034|";
+  set vendor-class-identifier = "udhcp";
+}
+lease 10.0.0.125 {
+  starts 6 2016/03/19 19:42:36;
+  ends 6 2016/03/19 19:43:48;
+  tstp 6 2016/03/19 19:43:48;
+  cltt 6 2016/03/19 19:42:36;
+  binding state free;
+  hardware ethernet 58:67:1a:8d:f4:22;
+}
+lease 10.0.0.111 {
+  starts 6 2016/03/19 19:43:05;
+  ends 6 2016/03/19 19:44:17;
+  tstp 6 2016/03/19 19:44:17;
+  cltt 6 2016/03/19 19:43:05;
+  binding state free;
+  hardware ethernet ac:fd:ec:81:e2:6d;
+  uid "\001\254\375\354\201\342m";
+}
+server-duid "\000\001\000\001\036\204\272b\000\021\"3D\000";
+

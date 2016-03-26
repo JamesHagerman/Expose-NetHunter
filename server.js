@@ -107,7 +107,9 @@ app.get('/fetchCapture', function (req, res) {
 });
 
 app.get('/leases.json', function(req, res) {
+  console.log('getting leases');
   var s = fs.readFileSync('/var/lib/dhcp/dhcpd.leases', 'utf-8');
   var data = dhcpdleases(s);
+  res.setHeader('Content-Type', 'application/json');
   res.send(data);
 });

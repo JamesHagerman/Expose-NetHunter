@@ -36,7 +36,24 @@ var App = (function() {
       // Routes:
       this.app_router.on('route:exnh', function (actions) {
         console.log('starting man exnh backbone route');
-      });
+
+        console.log('exnh stuff goes here.');
+
+        $('.btn').on('click', function() {
+          $.ajax({
+            method: 'GET',
+            dataType: 'json',
+            url: '/leases.json',
+            success: function(data) {
+              var parsedData = JSON.parse(data);
+              console.log(' lease response: ', parsedData);
+            }
+          });
+        });
+
+
+
+      });// end exnh route
 
       this.app_router.on('route:getPost', function (id) {
         // Note the variable in the route definition being passed in here
