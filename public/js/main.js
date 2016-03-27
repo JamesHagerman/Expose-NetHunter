@@ -47,6 +47,9 @@ var App = (function() {
             success: function(data) {
               console.log('string: ', JSON.stringify(data, 0, 2));
               //console.log(' lease response: ', data);
+
+              $('.lease-list').empty();
+
               Object.keys(data).forEach(function (key, index) {
                 console.log('ip: ', key);
                 var ip = key;
